@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/game.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="about.html">Acerca de</a>
+            <a href="contact.html">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="glass-container">
+        <h1>Juego del Ahorcado</h1>
+        <pre id="hangman-drawing"></pre>
+        <p id="hint">Pista: _ _ _ _ _</p> <!-- Pista de la palabra -->
+        <p id="word-display">_ _ _ _ _</p> <!-- Espacios para la palabra -->
+        <p>Intentos restantes: <span id="attempts-left">6</span></p>
+        <p>Letras fallidas: <span id="wrong-letters"></span></p>
+        <input type="text" id="letter-input" placeholder="Ingresa una letra" maxlength="1">
+        <button id="restart-button" style="display: none;">🔄 Reintentar</button>
+        <button id="next-button" style="display: none;">➡️ Siguiente</button>
+        <p id="message"></p>
+    </main>
+
+    <script src="js/game.js"></script>
+</body>
+</html>
