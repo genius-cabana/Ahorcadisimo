@@ -1,0 +1,43 @@
+/* Estilos específicos para game.html */
+#hangman-svg {
+    margin: 20px auto;
+    display: block;
+}
+
+#word-display {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    width: 50px;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #bb86fc;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+
+button:hover {
+    background: #9c27b0;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,18 @@
+/* Estilos específicos para about.html */
+.about-content section {
+    margin-bottom: 30px;
+}
+
+.about-content ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.about-content li {
+    margin: 10px 0;
+}
+
+.about-content h2 {
+    color: #bb86fc;
+    margin: 20px 0;
+}
