@@ -1,0 +1,30 @@
+/* Estilos específicos para contact.html */
+.form-group {
+    margin: 20px 0;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 5px;
+}
+
+.social-links {
+    margin-top: 30px;
+}
+
+.social-links img {
+    width: 30px;
+    margin-right: 10px;
+}
