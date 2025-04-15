@@ -1,5 +1,6 @@
 # Juego del Ahorcado
 
+
 ## Descripcion
 El Juego del Ahorcado es un proyecto web interactivo desarrollado con HTML, CSS y JavaScript. El objetivo del juego es adivinar una palabra oculta ingresando letras una por una. Si el jugador adivina todas las letras antes de quedarse sin intentos, gana. De lo contrario, pierde y se revela la palabra completa.
 
